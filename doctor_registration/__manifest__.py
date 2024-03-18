@@ -1,6 +1,6 @@
 {
     'name': 'Doctor Registration',
-    'version': '1.2',
+    'version': '1.0',
     'sequence': -100,
     'author': 'Zafir Abdullah',
     'category': 'Doctor',
