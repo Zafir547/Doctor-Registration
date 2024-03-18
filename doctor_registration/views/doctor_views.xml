@@ -40,8 +40,8 @@
             <field name="view_mode">tree,form</field>
         </record>
 
-        <!-- Menu Item -->
-        <menuitem id="menu_doctor" name="Doctor" parent="base.menu_sales" sequence="20"/>
-        <menuitem id="menu_doctor_list" name="Doctor List" parent="menu_doctor" action="action_doctor"/>
+        <!-- Menu Items -->
+        <menuitem id="menu_doctor_root" name="Doctor" sequence="10"/>
+        <menuitem id="menu_doctor_list" name="Doctor List" parent="menu_doctor_root" action="action_doctor" sequence="10"/>
     </data>
 </odoo>
